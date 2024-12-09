@@ -75,7 +75,7 @@ public class MyString {
             str = str.replaceAll("", " ").replaceFirst(" ", "");
             return str.substring(0, str.length()-1);
         }
-        return str.replaceAll("", " ");
+        return str;
     }
   
     /**
