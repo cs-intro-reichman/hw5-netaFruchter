@@ -105,10 +105,10 @@ public class Scrabble {
 				break;
 			}
 			else {
-				if (!isWordInDictionary(input)) {
-					System.out.println("No such word in the dictionary. Try again");
-				}
-				else if (!inHand(hand, input)){
+				//if (!isWordInDictionary(input)) {
+				//	System.out.println("No such word in the dictionary. Try again");
+				//}
+				if (!inHand(hand, input) || !isWordInDictionary(input)){
 					System.out.println("Invalid word. Try again.");
 				}
 				else{
